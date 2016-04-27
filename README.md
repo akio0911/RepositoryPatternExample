@@ -1,0 +1,6 @@
+# RepositoryPatternExample
+
+リポジトリパターンのサンプル
+
+
+

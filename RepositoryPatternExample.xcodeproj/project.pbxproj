@@ -12,7 +12,27 @@
 		E52B46F71CD0B51B00BA8AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52B46F51CD0B51B00BA8AF2 /* Main.storyboard */; };
 		E52B46F91CD0B51B00BA8AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52B46F81CD0B51B00BA8AF2 /* Assets.xcassets */; };
 		E52B46FC1CD0B51B00BA8AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52B46FA1CD0B51B00BA8AF2 /* LaunchScreen.storyboard */; };
+		E52B47041CD0B54A00BA8AF2 /* DataStorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52B47031CD0B54A00BA8AF2 /* DataStorageType.swift */; };
+		E52B47061CD0B57B00BA8AF2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52B47051CD0B57B00BA8AF2 /* Person.swift */; };
+		E52B470B1CD0B7CA00BA8AF2 /* SwiftTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52B470A1CD0B7CA00BA8AF2 /* SwiftTask.framework */; };
+		E52B470C1CD0B7CA00BA8AF2 /* SwiftTask.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E52B470A1CD0B7CA00BA8AF2 /* SwiftTask.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E52B470F1CD0B82600BA8AF2 /* RealmStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52B470E1CD0B82600BA8AF2 /* RealmStorage.swift */; };
+		E52B47111CD0B86600BA8AF2 /* APIStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52B47101CD0B86600BA8AF2 /* APIStorage.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E52B470D1CD0B7CB00BA8AF2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E52B470C1CD0B7CA00BA8AF2 /* SwiftTask.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E52B46EE1CD0B51B00BA8AF2 /* RepositoryPatternExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepositoryPatternExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +42,11 @@
 		E52B46F81CD0B51B00BA8AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E52B46FB1CD0B51B00BA8AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E52B46FD1CD0B51B00BA8AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52B47031CD0B54A00BA8AF2 /* DataStorageType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStorageType.swift; sourceTree = "<group>"; };
+		E52B47051CD0B57B00BA8AF2 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E52B470A1CD0B7CA00BA8AF2 /* SwiftTask.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftTask.framework; path = Carthage/Build/iOS/SwiftTask.framework; sourceTree = "<group>"; };
+		E52B470E1CD0B82600BA8AF2 /* RealmStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmStorage.swift; sourceTree = "<group>"; };
+		E52B47101CD0B86600BA8AF2 /* APIStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52B470B1CD0B7CA00BA8AF2 /* SwiftTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +64,7 @@
 		E52B46E51CD0B51B00BA8AF2 = {
 			isa = PBXGroup;
 			children = (
+				E52B470A1CD0B7CA00BA8AF2 /* SwiftTask.framework */,
 				E52B46F01CD0B51B00BA8AF2 /* RepositoryPatternExample */,
 				E52B46EF1CD0B51B00BA8AF2 /* Products */,
 			);
@@ -56,6 +83,10 @@
 			children = (
 				E52B46F11CD0B51B00BA8AF2 /* AppDelegate.swift */,
 				E52B46F31CD0B51B00BA8AF2 /* ViewController.swift */,
+				E52B47051CD0B57B00BA8AF2 /* Person.swift */,
+				E52B47031CD0B54A00BA8AF2 /* DataStorageType.swift */,
+				E52B470E1CD0B82600BA8AF2 /* RealmStorage.swift */,
+				E52B47101CD0B86600BA8AF2 /* APIStorage.swift */,
 				E52B46F51CD0B51B00BA8AF2 /* Main.storyboard */,
 				E52B46F81CD0B51B00BA8AF2 /* Assets.xcassets */,
 				E52B46FA1CD0B51B00BA8AF2 /* LaunchScreen.storyboard */,
@@ -74,6 +105,7 @@
 				E52B46EA1CD0B51B00BA8AF2 /* Sources */,
 				E52B46EB1CD0B51B00BA8AF2 /* Frameworks */,
 				E52B46EC1CD0B51B00BA8AF2 /* Resources */,
+				E52B470D1CD0B7CB00BA8AF2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +168,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E52B46F41CD0B51B00BA8AF2 /* ViewController.swift in Sources */,
+				E52B47041CD0B54A00BA8AF2 /* DataStorageType.swift in Sources */,
+				E52B47111CD0B86600BA8AF2 /* APIStorage.swift in Sources */,
+				E52B470F1CD0B82600BA8AF2 /* RealmStorage.swift in Sources */,
+				E52B47061CD0B57B00BA8AF2 /* Person.swift in Sources */,
 				E52B46F21CD0B51B00BA8AF2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +285,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RepositoryPatternExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.akio0911.RepositoryPatternExample;
@@ -260,6 +300,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RepositoryPatternExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.akio0911.RepositoryPatternExample;
